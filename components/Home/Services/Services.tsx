@@ -9,10 +9,10 @@ const Services = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-blue-700 dark:text-pink-500 uppercase">
-              What we provide
+              Lo que ofrecemos
             </h1>
             <h2 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-              Provide High Quality Software Service for All Industry
+              Brindamos un servicio de software de alta calidad para todas las industrias
             </h2>
           </div>
           <div className="lg:ml-auto">
@@ -20,7 +20,7 @@ const Services = () => {
               href="#"
               className="w-full py-4  text-base sm:text-lg text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto"
             >
-              All Services
+              Todos los servicios
             </a>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Services = () => {
           <div data-aos="fade-right" data-aos-anchor-placement="top-center">
             <ServicesCard
               image="/images/s1.png"
-              title="Custom Softwares Development"
+              title="Desarrollo de software personalizado"
             />
           </div>
           <div
@@ -39,7 +39,7 @@ const Services = () => {
           >
             <ServicesCard
               image="/images/s2.png"
-              title="Website Design and Development"
+              title="Diseño y desarrollo de sitios web"
             />
           </div>
           <div
@@ -49,7 +49,7 @@ const Services = () => {
           >
             <ServicesCard
               image="/images/s3.png"
-              title="Cloud Computing and Hosting Services"
+              title="Servicios de alojamiento y computación en la nube"
             />
           </div>
           <div
@@ -59,7 +59,7 @@ const Services = () => {
           >
             <ServicesCard
               image="/images/s4.png"
-              title="Ai & Machine Learning Integration"
+              title="Integración de IA y aprendizaje automático"
             />
           </div>
           <div
@@ -69,7 +69,7 @@ const Services = () => {
           >
             <ServicesCard
               image="/images/s5.png"
-              title="Android & iOS App Development"
+              title="Desarrollo de aplicaciones para Android e iOS"
             />
           </div>
           <div
@@ -79,7 +79,7 @@ const Services = () => {
           >
             <ServicesCard
               image="/images/s6.png"
-              title="3D Graphics & Vector Designing"
+              title="Diseño gráfico 3D y vectorial"
             />
           </div>
         </div>

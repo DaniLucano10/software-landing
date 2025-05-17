@@ -38,32 +38,32 @@ const Footer = () => {
         </div>
         {/* 2nd part */}
         <div className="space-y-5">
-          <h1 className="text-lg font-bold text-white">Company</h1>
-          <p className="footer__link">About Us</p>
-          <p className="footer__link">News & Press</p>
-          <p className="footer__link">Our Customer</p>
-          <p className="footer__link">Leadership</p>
-          <p className="footer__link">Careers</p>
+          <h1 className="text-lg font-bold text-white">Compañía</h1>
+          <p className="footer__link">Sobre nosotros</p>
+          <p className="footer__link">Noticias y prensa</p>
+          <p className="footer__link">Nuestro Cliente</p>
+          <p className="footer__link">Liderazgo</p>
+          <p className="footer__link">Carreras</p>
         </div>
         {/* 3rd part */}
         <div className="space-y-5">
-          <h1 className="text-lg font-bold text-white">Resources</h1>
+          <h1 className="text-lg font-bold text-white">Recursos</h1>
           <p className="footer__link">Blog</p>
-          <p className="footer__link">Webinar & Events</p>
+          <p className="footer__link">Seminarios web y eventos</p>
           <p className="footer__link">Podcast</p>
-          <p className="footer__link">E-book & Guides</p>
+          <p className="footer__link">Libros electrónicos y guías</p>
         </div>
         {/* 4th part */}
         <div>
-          <h1 className="text-lg font-bold text-white">Contact Us</h1>
+          <h1 className="text-lg font-bold text-white">Contacta con nosotros</h1>
           <div className="mt-6">
-            <h1 className="text-sm text-white">Our Mobile Phone</h1>
+            <h1 className="text-sm text-white">Teléfono móvil</h1>
             <h1 className="text-base font-bold text-yellow-300 mt-1">
               +51956595632
             </h1>
           </div>
           <div className="mt-6">
-            <h1 className="text-sm text-white">Our Email</h1>
+            <h1 className="text-sm text-white">Correo electrónico</h1>
             <h1 className="text-base font-bold text-yellow-300 mt-1">
               example@gmail.com
             </h1>
@@ -73,7 +73,7 @@ const Footer = () => {
       {/* bottom part */}
       <div className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
         <p className="text-center text-white md:text-left">
-          Copyright © 2025 Webdev. All rights reserved
+          Copyright © 2025 Webdev. Todos los derechos reservados.
         </p>
         <div className="flex items-center text-white space-x-4 mt-4 md:mt-0">
             <span>Social :</span>

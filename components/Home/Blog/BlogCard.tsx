@@ -25,7 +25,7 @@ const BlogCard = ({ image, title }: Props) => {
         <div className="w-[90%] mx-auto bg-gray-200 dark:bg-blue-900 rounded-lg mt-[-3rem] relative z-10 p-6">
             <div className="flex items-center space-x-2">
                 <BiUser className="w-5 h-5"/>
-                <span className="md:text-lg text-base font-bold">By Admin</span>
+                <span className="md:text-lg text-base font-bold">Por administrador</span>
             </div>
             <h1 className="text-lg md:text-xl font-bold mt-4">
                 {title}

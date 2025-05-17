@@ -12,11 +12,11 @@ const WhyChoose = () => {
         <div>
           {/* Subheading */}
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-700 dark:text-pink-500 uppercase">
-            Why Choose Us?
+            ¿Por qué elegirnos?
           </p>
           {/* Heading */}
           <h1 className="text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]">
-            Innovations Excellence Building Digital Future Together
+            Innovaciones Excelencia Construyendo juntos un futuro digital
           </h1>
           {/* Line */}
           <div className="mt-8 mb-8 w-full h-[1px] bg-gray-200 dark:bg-gray-700"></div>
@@ -27,10 +27,9 @@ const WhyChoose = () => {
               <FaRegFileCode className="w-8 h-8 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-xl font-bold">Free Integration</h1>
+              <h1 className="text-xl font-bold">Integración gratuita</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage top-line technology maximize const
-                effective service done
+                Aprovechar de forma competente la tecnología de punta para maximizar la consistencia y la eficacia del servicio.
               </p>
             </div>
           </div>
@@ -40,10 +39,9 @@ const WhyChoose = () => {
               <GrResources className="w-8 h-8 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-xl font-bold">Premium Resources</h1>
+              <h1 className="text-xl font-bold">Recursos premium</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage top-line technology maximize const
-                effective service done
+                Aprovechar de forma competente la tecnología de punta para maximizar la consistencia y la eficacia del servicio.
               </p>
             </div>
           </div>
@@ -53,10 +51,9 @@ const WhyChoose = () => {
               <BiSupport className="w-8 h-8 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-xl font-bold">Unlimited Supports</h1>
+              <h1 className="text-xl font-bold">Soportes ilimitados</h1>
               <p className="mt-2 text-gray-800 dark:text-gray-300 w-[70%]">
-                Competently leverage top-line technology maximize const
-                effective service done
+                  Aprovechar de forma competente la tecnología de punta para maximizar la consistencia y la eficacia del servicio.
               </p>
             </div>
           </div>
@@ -65,7 +62,7 @@ const WhyChoose = () => {
         <div data-aos="zoom-out" data-aos-anchor-placement="top-center">
           <Image
             src="/images/wc.png"
-            alt="whychoose"
+            alt="por qué elegir"
             width={800}
             height={800}
           />

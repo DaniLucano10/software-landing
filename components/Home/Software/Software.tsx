@@ -11,27 +11,27 @@ const Software = () => {
         </h1>
         {/* Heading */}
         <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-          Driving Change with Innovate <br /> Successful Softwares
+          Impulsando el cambio con innovación <br /> Softwares exitosos
         </h1>
       </div>
       {/* Cards */}
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
         <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-          <SoftwareCard icon="/images/i1.png" title="Best Marketing Software" />
+          <SoftwareCard icon="/images/i1.png" title="El mejor software de marketing" />
         </div>
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="100"
         >
-          <SoftwareCard icon="/images/i2.png" title="Product Sales Software" />
+          <SoftwareCard icon="/images/i2.png" title="Software de venta de productos" />
         </div>
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="200"
         >
-          <SoftwareCard icon="/images/i3.png" title="Best Marketing Software" />
+          <SoftwareCard icon="/images/i3.png" title="El mejor software de marketing" />
         </div>
       </div>
     </div>

@@ -12,10 +12,10 @@ const About = () => {
         {/* Text content */}
         <div>
           <p className="text-sm sm:text-base md:text-xl font-bold text-blue-700 dark:text-pink-500 uppercase">
-            About Us
+            Sobre nosotros
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-5xl mt-3 font-bold leading-[1.8rem] md:leading-[3rem]">
-            Innovations Excellence Building Digital Future Together
+            Innovaciones Excelencia Construyendo juntos un futuro digital
           </h1>
           <p className="mt-3 text-gray-700 dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -27,13 +27,13 @@ const About = () => {
             <div className="flex items-center gap-4">
               <Image src="/images/a1.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                IT Infrastucture <br /> Management
+                Gestión de infraestructura de TI
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a2.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Cloud Integration <br /> Service Provide
+                Integración en la nube <br /> Proveedor de servicios
               </h1>
             </div>
           </div>
@@ -41,13 +41,13 @@ const About = () => {
             <div className="flex items-center gap-4">
               <Image src="/images/a3.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Custom software <br /> Development
+                Desarrollo de software a medida
               </h1>
             </div>
             <div className="flex items-center gap-4">
               <Image src="/images/a4.png" alt="icon" width={50} height={50} />
               <h1 className="text-lg sm:text-xl font-bold leading-5">
-                Instant Supports <br /> any Queries
+                Asistencia instantánea para cualquier consulta
               </h1>
             </div>
           </div>
@@ -56,7 +56,7 @@ const About = () => {
               href="#"
               className="w-full py-4 text-base text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto"
             >
-              About More
+              Acerca de más
             </a>
           </div>
         </div>

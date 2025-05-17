@@ -8,11 +8,11 @@ const Blog = () => {
       <div className="text-center">
         {/* subheading */}
         <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-blue-700 dark:text-pink-500">
-          Latest Blog
+          Blog más reciente
         </h1>
         {/* Heading */}
         <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-          Ready Our Latest Insights from Ours Blog Posts
+          Listo Nuestros últimos hallazgos de nuestras publicaciones de blog
         </h1>
       </div>
       <div className="w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -21,7 +21,7 @@ const Blog = () => {
         >
           <BlogCard
             image="/images/b1.png"
-            title="Expert Advice for Growing Your Digital Presence"
+            title="Consejos de expertos para aumentar su presencia digital"
           />
         </div>
         <div
@@ -30,7 +30,7 @@ const Blog = () => {
         >
           <BlogCard
             image="/images/b2.png"
-            title="Data-Driven Strategies and Case Studies Success"
+            title="Estrategias basadas en datos y casos de estudio de éxito"
           />
         </div>
         <div
@@ -39,7 +39,7 @@ const Blog = () => {
         >
           <BlogCard
             image="/images/b3.png"
-            title="The Complete SEO Blog for Digital Success"
+            title="El blog completo de SEO para el éxito digital"
           />
         </div>
       </div>

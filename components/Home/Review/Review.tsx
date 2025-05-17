@@ -33,7 +33,7 @@ const Review = () => {
               Testimonials
             </h1>
             <h2 className="text-xl sm:text-3xl md:text-4xl mt-1 font-bold">
-              Trusted By Industry Leaders Clients Testimonial
+              Testimonios de clientes de líderes de la industria que confían en nosotros
             </h2>
           </div>
           <div className="lg:ml-auto">
@@ -41,7 +41,7 @@ const Review = () => {
               href="#"
               className="w-full py-4  text-base sm:text-lg text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto"
             >
-              All Reviews
+              Todas las reseñas
             </a>
           </div>
         </div>
@@ -55,22 +55,22 @@ const Review = () => {
             autoPlaySpeed={4000}
           >
             <ReviewCard
-              reviewTitle="Great Work!"
+              reviewTitle="¡Gran trabajo!"
               userName="Jassica Doe"
               userImage="/images/c1.png"
-              role="UI UX Desinger"
+              role="Diseñador UI/UX"
             />
             <ReviewCard
-              reviewTitle="Creative Work!"
+              reviewTitle="¡Trabajo creativo!"
               userName="Jany Doe"
               userImage="/images/c2.png"
-              role="Web Developer"
+              role="Desarrolladora web"
             />
             <ReviewCard
-              reviewTitle="Awesome Work!"
+              reviewTitle="¡Trabajo impresionante!"
               userName="Jason Doe"
               userImage="/images/c3.png"
-              role="App Developer"
+              role="Desarrollador de aplicaciones"
             />
           </Carousel>
         </div>

@@ -26,7 +26,7 @@ const ServicesCard = ({ image, title }: Props) => {
         atque labore esse odio.
       </p>
       <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
-        <span>Learn More</span>
+        <span>Más información</span>
         <span>
             <GoArrowUpRight />
         </span>
