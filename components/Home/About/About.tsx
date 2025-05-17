@@ -6,7 +6,7 @@ const About = () => {
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image content */}
-        <div>
+        <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <Image src="/images/about.png" alt="image" width={700} height={800} />
         </div>
         {/* Text content */}
@@ -25,35 +25,38 @@ const About = () => {
           </p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
             <div className="flex items-center gap-4">
-                <Image src="/images/a1.png" alt="icon" width={50} height={50}/>
-                <h1 className="text-lg sm:text-xl font-bold leading-5">
-                    IT Infrastucture <br /> Management
-                </h1>
+              <Image src="/images/a1.png" alt="icon" width={50} height={50} />
+              <h1 className="text-lg sm:text-xl font-bold leading-5">
+                IT Infrastucture <br /> Management
+              </h1>
             </div>
             <div className="flex items-center gap-4">
-                <Image src="/images/a2.png" alt="icon" width={50} height={50}/>
-                <h1 className="text-lg sm:text-xl font-bold leading-5">
-                    Cloud Integration <br /> Service Provide
-                </h1>
+              <Image src="/images/a2.png" alt="icon" width={50} height={50} />
+              <h1 className="text-lg sm:text-xl font-bold leading-5">
+                Cloud Integration <br /> Service Provide
+              </h1>
             </div>
           </div>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
             <div className="flex items-center gap-4">
-                <Image src="/images/a3.png" alt="icon" width={50} height={50}/>
-                <h1 className="text-lg sm:text-xl font-bold leading-5">
-                    Custom software <br /> Development
-                </h1>
+              <Image src="/images/a3.png" alt="icon" width={50} height={50} />
+              <h1 className="text-lg sm:text-xl font-bold leading-5">
+                Custom software <br /> Development
+              </h1>
             </div>
             <div className="flex items-center gap-4">
-                <Image src="/images/a4.png" alt="icon" width={50} height={50}/>
-                <h1 className="text-lg sm:text-xl font-bold leading-5">
-                    Instant Supports <br /> any Queries
-                </h1>
+              <Image src="/images/a4.png" alt="icon" width={50} height={50} />
+              <h1 className="text-lg sm:text-xl font-bold leading-5">
+                Instant Supports <br /> any Queries
+              </h1>
             </div>
           </div>
           <div className="mt-32">
-            <a href="#" className="w-full py-4 text-base text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto">
-                About More
+            <a
+              href="#"
+              className="w-full py-4 text-base text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto"
+            >
+              About More
             </a>
           </div>
         </div>

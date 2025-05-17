@@ -25,44 +25,64 @@ const Services = () => {
           </div>
         </div>
         {/* Services card */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
-            <div>
-              <ServicesCard
-                image="/images/s1.png"
-                title="Custom Softwares Development"
-              />
-            </div>
-            <div>
-              <ServicesCard
-                image="/images/s2.png"
-                title="Website Design and Development"
-              />
-            </div>
-            <div>
-              <ServicesCard
-                image="/images/s3.png"
-                title="Cloud Computing and Hosting Services"
-              />
-            </div>
-            <div>
-              <ServicesCard
-                image="/images/s4.png"
-                title="Ai & Machine Learning Integration"
-              />
-            </div>
-            <div>
-               <ServicesCard
-                image="/images/s5.png"
-                title="Android & iOS App Development"
-              />
-            </div>
-            <div>
-              <ServicesCard
-                image="/images/s6.png"
-                title="3D Graphics & Vector Designing"
-              />
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center">
+            <ServicesCard
+              image="/images/s1.png"
+              title="Custom Softwares Development"
+            />
           </div>
+          <div
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100"
+          >
+            <ServicesCard
+              image="/images/s2.png"
+              title="Website Design and Development"
+            />
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="200"
+          >
+            <ServicesCard
+              image="/images/s3.png"
+              title="Cloud Computing and Hosting Services"
+            />
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="300"
+          >
+            <ServicesCard
+              image="/images/s4.png"
+              title="Ai & Machine Learning Integration"
+            />
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="400"
+          >
+            <ServicesCard
+              image="/images/s5.png"
+              title="Android & iOS App Development"
+            />
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="500"
+          >
+            <ServicesCard
+              image="/images/s6.png"
+              title="3D Graphics & Vector Designing"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

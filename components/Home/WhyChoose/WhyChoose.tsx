@@ -62,7 +62,7 @@ const WhyChoose = () => {
           </div>
         </div>
         {/* Image Content */}
-        <div>
+        <div data-aos="zoom-out" data-aos-anchor-placement="top-center">
           <Image
             src="/images/wc.png"
             alt="whychoose"
