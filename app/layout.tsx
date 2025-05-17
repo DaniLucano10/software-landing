@@ -3,6 +3,8 @@ import { Rajdhani } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Provider from "@/components/HOC/Provider";
+import Footer from "@/components/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const font = Rajdhani({
   weight: ["300", "400", "500", "600", "700"],
@@ -32,6 +34,8 @@ export default function RootLayout({
         <Provider>
           <ResponsiveNav />
           {children}
+          <Footer />
+          <ScrollToTop />
         </Provider>
       </body>
     </html>
