@@ -34,11 +34,11 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO (puedes envolverlo en <Link> si lleva a home) */}
         <Link href="/" className="flex items-center space-x-2" aria-label="Inicio">
-          <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
+          <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
             <GrTechnology className="w-6 h-6 text-white" aria-hidden="true" />
           </div>
           <span className="text-xl hidden sm:block md:text-2xl text-white font-bold">
-            DevTech
+            TechParaTi
           </span>
         </Link>
 
