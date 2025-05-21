@@ -15,7 +15,7 @@ const Hero = () => {
             La empresa líder en desarrollo de software
           </p>
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl mt-6 mb-4 font-bold text-white leading-[2.5rem] md:leading-[4rem]">
+          <h1 className="text-4xl sm:text-4xl lg:text-5xl mt-6 mb-4 font-bold text-white leading-[2.5rem] md:leading-[4rem]">
             Proporcionamos soluciones de software para cualquier
             <span className="ml-1 text-yellow-300">negocio</span>
           </h1>
