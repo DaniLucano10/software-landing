@@ -24,7 +24,7 @@ const SoftwareCard = ({ icon, alt, title, description }: Props) => {
         className="px-6 py-1.5 rounded-full bg-blue-800 mt-4 font-bold hover:bg-blue-950 transition-all duration-200 cursor-pointer text-white"
         type="button"
       >
-        Learn More
+        Más información
       </button>
     </article>
   );
