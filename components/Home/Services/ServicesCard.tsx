@@ -5,11 +5,16 @@ import { GoArrowUpRight } from "react-icons/go";
 type Props = {
   image: string;
   title: string;
+  description: string;
 };
 
-const ServicesCard = ({ image, title }: Props) => {
+const ServicesCard = ({ image, title, description }: Props) => {
   return (
-    <div className="p-6 cursor-pointer hover:bg-blue-800 transition-all duration-500 group relative bg-gray-100 dark:bg-blue-950 shadow rounded-xl">
+    <article
+      className="p-6 cursor-pointer hover:bg-blue-800 transition-all duration-500 group relative bg-gray-100 dark:bg-blue-950 shadow rounded-xl"
+      role="article"
+      aria-label={`Servicio: ${title}`}
+    >
       <Image
         src={image}
         alt={title}
@@ -17,21 +22,25 @@ const ServicesCard = ({ image, title }: Props) => {
         height={60}
         className="object-contain"
       />
-      <h1 className="text-xl mt-5 font-semibold group-hover:text-white transition-all duration-500">
+
+      <h3 className="text-xl mt-5 font-semibold group-hover:text-white transition-all duration-500">
         {title}
-      </h1>
+      </h3>
+
       <p className="mt-4 font-medium text-gray-500 dark:text-gray-200 group-hover:text-gray-300 transition-all duration-500">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ea,
-        dolores architecto maiores voluptas commodi ratione quia deleniti ad
-        atque labore esse odio.
+        {description}
       </p>
-      <div className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500">
+
+      <div
+        className="mt-6 text-xl font-medium flex items-center gap-1 group-hover:text-white transition-all duration-500"
+        aria-label={`Más información sobre ${title}`}
+      >
         <span>Más información</span>
         <span>
-            <GoArrowUpRight />
+          <GoArrowUpRight />
         </span>
       </div>
-    </div>
+    </article>
   );
 };
 
