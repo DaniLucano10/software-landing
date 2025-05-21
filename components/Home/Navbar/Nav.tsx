@@ -48,7 +48,7 @@ const Nav = ({ openNav }: Props) => {
             <li key={link.id}>
               <Link
                 href={link.url}
-                className={`text-white text-lg hover:text-pink-300 font-semibold transition-all duration-200 ${
+                className={`text-white text-lg hover:text-blue-500 font-semibold transition-all duration-200 ${
                   pathname === link.url ? "underline" : ""
                 }`}
                 aria-current={pathname === link.url ? "page" : undefined}
