@@ -54,6 +54,7 @@ const Hero = () => {
             alt="Soluciones de software personalizadas para empresas"
             width={900}
             height={900}
+            className="w-[900px] h-[900px] object-contain"
             priority
           />
         </div>
