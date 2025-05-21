@@ -13,7 +13,7 @@ const font = Rajdhani({
 });
 
 export const metadata: Metadata = {
-  title: "DevTech | Soluciones de software a medida",
+  title: "TechParaTi | Soluciones de software a medida",
   description:
     "DevTech es una empresa especializada en desarrollo de software personalizado, diseño de aplicaciones web y soluciones tecnológicas para negocios de todos los tamaños.",
   keywords: [
