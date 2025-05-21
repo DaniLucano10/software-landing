@@ -26,8 +26,8 @@ const Nav = ({ openNav }: Props) => {
   return (
     <nav
       className={`transition-all ${
-        navBg ? "bg-blue-700 shadow-md" : "fixed"
-      } duration-200 h-[12vh] z-[100] fixed w-full bg-blue-500`}
+        navBg ? "bg-blue-800 shadow-md" : "fixed"
+      } duration-200 h-[12vh] z-[100] fixed w-full bg-blue-700`}
       role="navigation"
       aria-label="Navegación principal"
     >
@@ -48,7 +48,7 @@ const Nav = ({ openNav }: Props) => {
             <li key={link.id}>
               <Link
                 href={link.url}
-                className={`text-white text-lg hover:text-blue-200 font-semibold transition-all duration-200 ${
+                className={`text-gray-100 text-lg hover:text-white font-semibold transition-all duration-200 ${
                   pathname === link.url ? "underline" : ""
                 }`}
                 aria-current={pathname === link.url ? "page" : undefined}
@@ -63,7 +63,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4">
           {/* Botón Crear Cuenta (mejor con href real o cambia a <button>) */}
           <a
-            href="#"
+            href="/registro"
             role="button"
             aria-label="Crear una cuenta"
             className="px-5 py-2.5 relative rounded group font-medium text-white inline-block"
