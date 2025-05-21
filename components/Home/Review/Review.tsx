@@ -53,36 +53,38 @@ const Review = () => {
 
         {/* Sliders */}
         <div className="mt-16" aria-live="polite" aria-atomic="true">
-          <Carousel
-            showDots={false}
-            responsive={responsive}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={4000}
-            aria-label="Carrusel de testimonios de clientes"
-          >
-            <ReviewCard
-              reviewTitle="¡Gran trabajo!"
-              userName="Jassica Doe"
-              userImage="/images/c1.png"
-              role="Diseñadora UI/UX"
-              reviewText="El equipo superó todas mis expectativas, entregando un diseño intuitivo y atractivo que ha mejorado significativamente la experiencia de nuestros usuarios."
-            />
-            <ReviewCard
-              reviewTitle="¡Trabajo creativo!"
-              userName="Jany Doe"
-              userImage="/images/c2.png"
-              role="Desarrolladora web"
-              reviewText="Colaborar con ellos fue un placer. Su creatividad y profesionalismo se reflejan en cada detalle del proyecto. Sin duda volvería a trabajar juntos."
-            />
-            <ReviewCard
-              reviewTitle="¡Trabajo impresionante!"
-              userName="Jason Doe"
-              userImage="/images/c3.png"
-              role="Desarrollador de aplicaciones"
-              reviewText="El desarrollo fue ágil y eficiente. Entregaron una aplicación robusta y con un rendimiento excelente. Muy satisfecho con los resultados."
-            />
-          </Carousel>
+          <div role="list">
+            <Carousel
+              showDots={false}
+              responsive={responsive}
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={4000}
+              aria-label="Carrusel de testimonios de clientes"
+            >
+              <ReviewCard
+                reviewTitle="¡Gran trabajo!"
+                userName="Jassica Doe"
+                userImage="/images/c1.png"
+                role="Diseñadora UI/UX"
+                reviewText="El equipo superó todas mis expectativas, entregando un diseño intuitivo y atractivo que ha mejorado significativamente la experiencia de nuestros usuarios."
+              />
+              <ReviewCard
+                reviewTitle="¡Trabajo creativo!"
+                userName="Jany Doe"
+                userImage="/images/c2.png"
+                role="Desarrolladora web"
+                reviewText="Colaborar con ellos fue un placer. Su creatividad y profesionalismo se reflejan en cada detalle del proyecto. Sin duda volvería a trabajar juntos."
+              />
+              <ReviewCard
+                reviewTitle="¡Trabajo impresionante!"
+                userName="Jason Doe"
+                userImage="/images/c3.png"
+                role="Desarrollador de aplicaciones"
+                reviewText="El desarrollo fue ágil y eficiente. Entregaron una aplicación robusta y con un rendimiento excelente. Muy satisfecho con los resultados."
+              />
+            </Carousel>
+          </div>
         </div>
       </div>
     </section>
