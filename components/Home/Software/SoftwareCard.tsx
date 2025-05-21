@@ -14,7 +14,6 @@ const SoftwareCard = ({ icon, alt, title, description }: Props) => {
       className="bg-green-100 dark:bg-gray-800 p-6 rounded-lg"
       tabIndex={0} // para accesibilidad: que pueda recibir foco
       aria-label={`Detalles del software: ${title}`}
-      role="group"
     >
       <Image src={icon} alt={alt} width={50} height={50} priority={false} />
       <h3 className="text-xl mt-6 font-bold">{title}</h3>

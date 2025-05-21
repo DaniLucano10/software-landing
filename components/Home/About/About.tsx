@@ -6,6 +6,7 @@ const About = () => {
     <section
       className="pt-16 pb-16"
       aria-labelledby="about-heading"
+      id="Inicio"
     >
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Imagen principal */}

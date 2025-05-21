@@ -32,8 +32,8 @@ const ReviewCard = ({
 
       <div
         className="mt-2 flex items-center"
-        aria-label="Calificación de 5 estrellas"
       >
+        <span className="sr-only">Calificación de 5 estrellas</span>
         {[...Array(5)].map((_, i) => (
           <FaStar
             key={i}

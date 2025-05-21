@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <section className="pt-16 pb-16" aria-labelledby="blog-heading">
+    <section className="pt-16 pb-16" aria-labelledby="blog-heading" id="Blog">
       {/* Heading section */}
       <header className="text-center max-w-4xl mx-auto px-4">
         {/* Subheading */}
@@ -24,19 +24,19 @@ const Blog = () => {
         className="w-[80%] mt-16 mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6"
         role="list"
       >
-        <article data-aos="fade-right">
+        <article role="listitem" data-aos="fade-right">
           <BlogCard
             image="/images/b1.png"
             title="Consejos de expertos para aumentar su presencia digital"
           />
         </article>
-        <article data-aos="fade-right" data-aos-delay="100">
+        <article role="listitem" data-aos="fade-right" data-aos-delay="100">
           <BlogCard
             image="/images/b2.png"
             title="Estrategias basadas en datos y casos de estudio de éxito"
           />
         </article>
-        <article data-aos="fade-right" data-aos-delay="200">
+        <article role="listitem" data-aos="fade-right" data-aos-delay="200">
           <BlogCard
             image="/images/b3.png"
             title="El blog completo de SEO para el éxito digital"
