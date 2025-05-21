@@ -88,7 +88,7 @@ const Services = () => {
               {/* Schema.org (oculto para SEO) */}
               <meta itemProp="name" content={service.title} />
               <meta itemProp="description" content={service.description} />
-              <meta itemProp="provider" content="DevTech" />
+              <meta itemProp="provider" content="TechParaTi" />
             </article>
           ))}
         </div>

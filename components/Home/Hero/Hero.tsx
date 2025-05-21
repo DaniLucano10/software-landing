@@ -25,7 +25,7 @@ const Hero = () => {
           </h2>
           {/* SEO-optimized Description */}
           <p className="text-sm sm:text-base md:text-lg font-medium text-gray-300">
-            En DevTech ayudamos a empresas a digitalizar sus procesos con
+            En TechParaTi ayudamos a empresas a digitalizar sus procesos con
             soluciones de software a medida. Nuestro equipo experto en
             tecnología crea herramientas personalizadas para mejorar la
             eficiencia operativa, acelerar el crecimiento y garantizar una

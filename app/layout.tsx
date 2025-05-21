@@ -15,32 +15,32 @@ const font = Rajdhani({
 export const metadata: Metadata = {
   title: "TechParaTi | Soluciones de software a medida",
   description:
-    "DevTech es una empresa especializada en desarrollo de software personalizado, diseño de aplicaciones web y soluciones tecnológicas para negocios de todos los tamaños.",
+    "TechParaTi es una empresa especializada en desarrollo de software personalizado, diseño de aplicaciones web y soluciones tecnológicas para negocios de todos los tamaños.",
   keywords: [
     "desarrollo de software",
     "software a medida",
-    "DevTech",
+    "TechParaTi",
     "soluciones tecnológicas",
     "transformación digital",
     "Next.js",
     "empresa de software",
   ],
-  authors: [{ name: "DevTech", url: "https://software-tech-para-ti.vercel.app/" }],
-  creator: "DevTech",
-  publisher: "DevTech",
+  authors: [{ name: "TechParaTi", url: "https://software-tech-para-ti.vercel.app/" }],
+  creator: "TechParaTi",
+  publisher: "TechParaTi",
   metadataBase: new URL("https://software-tech-para-ti.vercel.app/"), // actualiza si tienes dominio
   openGraph: {
-    title: "DevTech | Soluciones de software a medida",
+    title: "TechParaTi | Soluciones de software a medida",
     description:
       "Impulsa tu negocio con aplicaciones web y sistemas personalizados desarrollados por expertos.",
     url: "https://software-tech-para-ti.vercel.app/",
-    siteName: "DevTech",
+    siteName: "TechParaTi",
     images: [
       {
         url: "/images/hero.png", // Asegúrate que esta imagen esté optimizada
         width: 1200,
         height: 630,
-        alt: "Vista previa del sitio DevTech",
+        alt: "Vista previa del sitio TechParaTi",
       },
     ],
     locale: "es_ES",
@@ -48,11 +48,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DevTech | Soluciones de software a medida",
+    title: "TechParaTi | Soluciones de software a medida",
     description:
       "Desarrollamos soluciones digitales que impulsan tu negocio al siguiente nivel.",
     images: ["/images/hero.png"],
-    creator: "@devtech", // tu handle de Twitter si tienes
+    creator: "@TechParaTi", // tu handle de Twitter si tienes
   },
   icons: {
     icon: "/favicon.ico",
