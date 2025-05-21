@@ -25,15 +25,15 @@ export const metadata: Metadata = {
     "Next.js",
     "empresa de software",
   ],
-  authors: [{ name: "DevTech", url: "https://devtech.com" }],
+  authors: [{ name: "DevTech", url: "https://software-tech-para-ti.vercel.app/" }],
   creator: "DevTech",
   publisher: "DevTech",
-  metadataBase: new URL("https://devtech.com"), // actualiza si tienes dominio
+  metadataBase: new URL("https://software-tech-para-ti.vercel.app/"), // actualiza si tienes dominio
   openGraph: {
     title: "DevTech | Soluciones de software a medida",
     description:
       "Impulsa tu negocio con aplicaciones web y sistemas personalizados desarrollados por expertos.",
-    url: "https://devtech.com",
+    url: "https://software-tech-para-ti.vercel.app/",
     siteName: "DevTech",
     images: [
       {
@@ -71,7 +71,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0f172a" />
-        <link rel="canonical" href="https://devtech.com" />
+        <link rel="canonical" href="https://software-tech-para-ti.vercel.app/" />
       </head>
       <body className={`${font.className} antialiased`}>
         <Provider>
