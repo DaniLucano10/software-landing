@@ -19,7 +19,6 @@ const ReviewCard = ({
 }: Props) => {
   return (
     <article
-      role="listitem"
       className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg mr-4 shadow-md"
       aria-labelledby={`${userName.replace(/\s/g, "")}-review-title`}
     >
