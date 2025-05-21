@@ -19,16 +19,16 @@ const ReviewCard = ({
 }: Props) => {
   return (
     <article
+      role="listitem"
       className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg mr-4 shadow-md"
-      role="group"
       aria-labelledby={`${userName.replace(/\s/g, "")}-review-title`}
     >
-      <h3
+      <h2
         id={`${userName.replace(/\s/g, "")}-review-title`}
         className="text-2xl text-black dark:text-white font-bold"
       >
         {reviewTitle}
-      </h3>
+      </h2>
 
       <div
         className="mt-2 flex items-center"
@@ -61,9 +61,9 @@ const ReviewCard = ({
             priority
           />
           <div>
-            <h4 className="text-base sm:text-lg text-black dark:text-white md:text-xl font-bold">
+            <h3 className="text-base sm:text-lg text-black dark:text-white md:text-xl font-bold">
               {userName}
-            </h4>
+            </h3>
             <p className="text-sm sm:text-base md:text-lg text-black dark:text-gray-300">
               {role}
             </p>

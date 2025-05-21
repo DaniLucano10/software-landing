@@ -36,7 +36,8 @@ const Review = () => {
               Testimonios
             </h2>
             <h1 className="text-xl sm:text-3xl md:text-4xl mt-1 font-extrabold text-gray-900 dark:text-white">
-              Testimonios de clientes líderes de la industria que confían en nosotros
+              Testimonios de clientes líderes de la industria que confían en
+              nosotros
             </h1>
           </div>
           <div className="lg:ml-auto">
