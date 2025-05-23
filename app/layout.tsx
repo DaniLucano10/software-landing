@@ -54,11 +54,7 @@ export const metadata: Metadata = {
     images: ["/images/hero.png"],
     creator: "@TechParaTi", // tu handle de Twitter si tienes
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+ 
 };
 
 export default function RootLayout({
@@ -72,6 +68,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0f172a" />
         <link rel="canonical" href="https://software-tech-para-ti.vercel.app/" />
+        <link rel="icon" href="/logo10.png" type="image/x-icon" />
       </head>
       <body className={`${font.className} antialiased`}>
         <Provider>
